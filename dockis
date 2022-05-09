@@ -13,6 +13,9 @@ function titre {
 
 function presentation {
     titre
+    echo ""
+    echo "tadadadadadadadadadadad"
+    echo ""
     echo "$(tput setaf 3)Hello ! I am your personnal docker quick commands assistant$(tput setaf 7)"
     echo ""
     echo "This is the list of all my commands, ENJOY !"
