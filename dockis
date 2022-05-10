@@ -11,6 +11,17 @@ function titre {
     echo "$(tput setaf 2)version 1.0$(tput setaf 7)"
 }
 
+function info {
+    titre
+    echo ""
+    echo "created the 10/05/2022"
+    echo "version 1.0"
+    echo ""
+    echo "Thanks you to use me ^^"
+    echo ""
+    echo "Type 'help' to see the available commands"
+}
+
 function presentation {
     titre
     echo ""
@@ -148,6 +159,5 @@ elif [[ $1 == "full-rebuild" ]]; then
     full-rebuild
 else
     clear
-    titre
-    echo "oops... error... type 'help' to see the available commands"
+    info
 fi
