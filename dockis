@@ -48,7 +48,7 @@ function build {
     docker compose up -d --build
     wait
     echo "$(tput setaf 7)"
-    echo "Project Build !"s
+    echo "Project Build !"
 }
 
 function stop {
